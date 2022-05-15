@@ -1,0 +1,164 @@
+body
+{
+    background-color: #000000;
+	color: #ffffff;
+    font-size: 20px;
+}
+
+#conteiner
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+	width: 1000px;
+    height: 27px;
+    color: #FF0000;
+    font-family: 'Lobster', cursive;
+	font-size: 27px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#menu
+{
+    width: 1000px;
+    height: 50px;
+	background-color: #0f0e0e;
+	margin-top: 20px;
+	color: #ffffff;
+	padding: 10px;
+   
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+.button
+{
+	margin-bottom: auto;
+    float: left;
+	min-width: 65px;
+	height: 40px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+    
+}
+.button:hover
+{
+	background-color: #333344;
+	color: white;
+	cursor: pointer;
+}
+
+#game 
+{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	min-width: 65px;
+	height: 40px;
+}
+a.tilelink5
+{
+	color: #ee0000;
+	text-decoration: none;
+}
+
+#content
+{
+	background-color: #000000;
+	width: 700px;
+	height: 420px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+}
+#julian-tuwim-img
+{
+	float: left;
+	font-size: 10px;
+}
+.tekst
+{
+	float: left;
+}
+
+
+#plansza
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+}
+
+#szubienica
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alfabet
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.reset
+{
+	color:green;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.reset:hover
+{
+	color:white;
+}

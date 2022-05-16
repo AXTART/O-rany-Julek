@@ -7,8 +7,9 @@ haslo = haslo.toUpperCase();
 var dlugosc = haslo.length;
 var ile_skuch = 0;
 
-var yes = new Audio("yes.wav");
-var no = new Audio("no.wav");
+var yes = new Audio("./audio/yes.wav");
+var no = new Audio("./audio/no.wav");
+var win = new Audio("./audio/win.wav");
 
 var haslo1 = "";
 
@@ -132,9 +133,9 @@ function sprawdz(nr)
 	}
 	
 	//wygrana
-	if (haslo == haslo1)
+	if (haslo == haslo1){
 	document.getElementById("alfabet").innerHTML  = "Tak jest! Podano prawidłowe hasło: "+haslo+'<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
-	
+	win.play();}
 	//przegrana
 	if (ile_skuch>=9)
 	document.getElementById("alfabet").innerHTML  = "Przegrana! Prawidłowe hasło: "+haslo+'<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';

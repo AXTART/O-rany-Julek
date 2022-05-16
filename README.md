@@ -2,7 +2,7 @@
 
 *INSTRUKCJA UŻYTKU APLIKACJI*
 
-1. Aby uruchomić grę należy w przeglądarce uruchomić plik index.HTML.
+1. Aby uruchomić grę należy w przeglądarce uruchomić plik index.html
 2. Gra sie automatycznie uruchamia można klikać poszczególe litery a program będze sprawdzał czy ta litera znajduje się w haśle.
 3. Każdy gracz ma 9 prób zanim przegra.
 4. Aby uruchomić grę ponownie trzeba kliknąć przycisk zagraj jeszcze raz.
